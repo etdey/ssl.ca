@@ -1,7 +1,12 @@
 -------------------------------------------------------------------------------
-Release v0.3, 08-MAR-2016
+Updates from Eric Dey
 
-    Updates from Eric Dey
+  Release v0.4, 10-FEB-2019
+
+    - Forced CN to always be a Subject Alternate Name for Chrome compatibility
+    - Added code signing fields for user certificates
+
+  Release v0.3, 08-MAR-2016
 
     - Added handling for Subject Alternate Names as DNS host names and IPs.
     - Parameterized key bits; default 2048.
@@ -13,17 +18,20 @@ Release v0.3, 08-MAR-2016
     - All scripts changed to use BASH.
     - Miscellaneous script clean-ups.
 
-
-Note 1: See README for a discussion about the entropy source.
-
-
--------------------------------------------------------------------------------
-Release v0.2, 22-MAR-2004
-
-    Updates by Mike Rhyner to add handling for renewal of certificates.
+  Note 1: See README for a discussion about the entropy source.
 
 
 -------------------------------------------------------------------------------
-Release v0.1, 24-APR-2000
+Updates from Mike Rhyner
 
-    Initial public release from Yeak Nai Siew.
+  Release v0.2, 22-MAR-2004
+
+    - Added handling for renewal of certificates
+
+
+-------------------------------------------------------------------------------
+Updates from Yeak Nai Siew
+
+  Release v0.1, 24-APR-2000
+
+    - Initial public release
