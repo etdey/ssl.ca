@@ -44,8 +44,11 @@ commonName_max			= 64
 emailAddress			= Email Address
 emailAddress_max		= 40
 [ v3_req ]
-nsCertType			= client,email
-basicConstraints		= critical,CA:false
+subjectKeyIdentifier=hash
+basicConstraints = critical,CA:FALSE
+keyUsage = digitalSignature
+extendedKeyUsage = codeSigning, msCodeInd, msCodeCom
+nsCertType = client, email, objsign
 EOT
 
 echo "Fill in certificate data"
