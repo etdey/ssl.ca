@@ -14,7 +14,7 @@ if [ $# -lt 1 ]; then
     exit 1
 fi
 
-shift
+# force the CN to become a SAN even if no other SANs; Chrome compatibility
 subjectAltNames="$*"
 
 # if private key exists, ask if we want to generate a new key
