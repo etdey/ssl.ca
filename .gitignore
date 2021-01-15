@@ -1,0 +1,10 @@
+ca.key
+ca.crt
+*.csr
+*.key
+*.crt
+ca.db.certs/
+ca.db.index
+ca.db.index.attr
+ca.db.serial
+
