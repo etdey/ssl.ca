@@ -47,7 +47,7 @@ emailAddress_max		= 40
 subjectKeyIdentifier=hash
 basicConstraints = critical,CA:FALSE
 keyUsage = digitalSignature
-extendedKeyUsage = codeSigning, msCodeInd, msCodeCom
+extendedKeyUsage = clientAuth, codeSigning, msCodeInd, msCodeCom
 nsCertType = client, email, objsign
 EOT
 
